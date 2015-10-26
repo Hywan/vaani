@@ -1,0 +1,74 @@
+<general__iWasntAbleToUnderstand "Je suis désolé, je ne suis pas capable de comprendre."
+  spoken: "Je suis désolé, je ne suis pas capable de comprendre."
+>
+<general__iDidntUnderstandSayAgain "Je n'ai pas compris, pouvez-vous répéter ?"
+  spoken: "Je n'ai pas compris, pouvez-vous répéter ?"
+>
+<general__ok "OK"
+  spoken: "OK"
+>
+<general__yesCommand "oui">
+<general__noCommand "non">
+
+
+<talkie__tapToGetStarted "Toucher pour commencer.">
+
+
+<firstTimeUse__ok "OK">
+<firstTimeUse__whatIsVaani "Qu'est-ce que Vaani ?">
+<firstTimeUse__whatIsVaaniContent "
+  Vaani est le système de reconnaissance vocale qui peut faire des choses pour vous.
+">
+<firstTimeUse__helpTheCommunity "Aider la communauté !">
+<firstTimeUse__helpTheCommunityContent "
+  Vous pouvez nous aider à améliorer la reconnaissance vocale de Vaani en lisant des phrases.
+">
+<firstTimeUse__notSure "Que demander à Vaani ?">
+<firstTimeUse__notSureContent "
+  Trouver les phrases que Vaani comprend ici.
+">
+
+
+<help__whatCanIAsk "Que puis-je demander ?">
+<help__openApp "Ouvre &lt;App&gt;">
+<help__dialNumber "Compose &lt;Nombre&gt;">
+<help__callContact "Appelle &lt;Contact favoris&gt;">
+
+
+<community__helpTheCommunity "Aider la communauté">
+<community__comingSoonContent "
+  <p>Vous pouvez nous aider à améliorer la reconnaissance vocale de Vaani en lisant des phrases.</p>
+  <p>Enregistrez-vous en train de lire une phrase. L'enregistrement sera ensuite envoyé à travers le Wi-Fi.</p>
+  <p>C'est tout ! Merci pour votre aide !</p>
+  <p>(bientôt disponible)</p>
+">
+
+
+<standingBy__howMayIHelpYou "Comment puis-je aider ?">
+<standingBy__iCantFindThatApp "Je ne trouve pas {{ $app }}."
+  spoken: "Je ne trouve pas cette application."
+>
+<standingBy__openCommand "ouvre">
+<standingBy__openCommandCue "démarre"> /* enum: start | end */
+<standingBy__callCommand "appelle">
+<standingBy__callCommandCue "démarre"> /* enum: start | end */
+<standingBy__dialCommand "compose">
+<standingBy__dialCommandCue "démarre"> /* enum: start | end */
+<standingBy__specialAppPhone "téléphone">
+<standingBy__specialAppContacts "contacts">
+
+
+<callNumber__doYouWantMeToCall "Voulez-vous que j'appelle {{ $number }} ? Oui/Non"
+  spoken: "Voulez-vous que j'appelle {{ $numberSpaced }} ?"
+>
+<callNumber__iWasntAbleToCall "Je suis désolé, je n'ai pas été capable d'appeler."
+  spoken: "Je suis désolé, je n'ai pas été capable d'appeler."
+>
+
+
+<callContact__doYouWantMeToCall "Voulez-vous que j'appelle {{ $contactName }} ?  Oui/Non"
+  spoken: "Voulez-vous que j'appelle ?"
+>
+<callContact__iWasntAbleToCall "Je suis désolé, je n'ai pas été capable d'appeler."
+  spoken: "Je suis désolé, je n'ai pas été capable d'appeler."
+>
