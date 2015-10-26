@@ -49,11 +49,11 @@
   spoken: "Je ne trouve pas cette application."
 >
 <standingBy__openCommand "ouvre">
-<standingBy__openCommandCue "démarre"> /* enum: start | end */
+<standingBy__openCommandCue "start"> /* enum: start | end */
 <standingBy__callCommand "appelle">
-<standingBy__callCommandCue "démarre"> /* enum: start | end */
+<standingBy__callCommandCue "start"> /* enum: start | end */
 <standingBy__dialCommand "compose">
-<standingBy__dialCommandCue "démarre"> /* enum: start | end */
+<standingBy__dialCommandCue "start"> /* enum: start | end */
 <standingBy__specialAppPhone "téléphone">
 <standingBy__specialAppContacts "contacts">
 
